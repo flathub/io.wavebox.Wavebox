@@ -69,8 +69,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/refi64/zypak
-        tag: v2021.09.1
-        commit: e09f37ca4ff09827434deba11f9b1f9e1c42dbaf
+        tag: v2022.03
+        commit: 8424c6bcf909ca2031ebc6537d324bb64772266e
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
@@ -79,8 +79,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/refi64/flextop
-        tag: v2021.07.1
-        commit: 9f66dac84388f520ecab5ac4fa60df6343b7db5b
+        tag: v2022.03
+        commit: 83c73e435630b94a6f44abe67cb268eae5b229b4
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
@@ -89,8 +89,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/refi64/cobalt
-        tag: v2021.11.1
-        commit: 8a49246a97fcb989b370c20b204324862d79541f
+        tag: v2022.03
+        commit: fccaada69563fe8e1055e825efeab1f399f50665
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
