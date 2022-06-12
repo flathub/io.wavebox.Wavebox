@@ -124,7 +124,7 @@ modules:
         x-checker-data:
           type: rotating-url
           url: https://download.wavebox.app/latest/stable/linux/tar
-          pattern: https://download.wavebox.app/stable/linux/tar/Wavebox_([\d-]+).tar.gz
+          pattern: https://download.wavebox.app/stable/linux/tar/Wavebox_([\d\.-]+).tar.gz
           is-main-source: true
       - type: script
         dest-filename: apply_extra
