@@ -116,10 +116,10 @@ modules:
       - install -Dm 644 io.wavebox.Wavebox.svg /app/share/icons/hicolor/scalable/apps/io.wavebox.Wavebox.svg
     sources:
       - type: extra-data
-        url: https://download.wavebox.app/stable/linux/tar/Wavebox_10.127.16-2.tar.gz
-        sha256: 4f6cd7fdf6ca3650c2585dbb41fc4dd8c4858b3a6eafaf5c69ea1a3c92538f16
+        url: https://download.wavebox.app/stable/linux/tar/Wavebox_10.128.3-2.tar.gz
+        sha256: 34a5254fde41c699aaf96e2b489629367ed24c505adf2f0d2d621ef294144f2c
         filename: wavebox.tar.gz
-        size: 215012282
+        size: 216299295
         only-arches: [x86_64]
         x-checker-data:
           type: rotating-url
