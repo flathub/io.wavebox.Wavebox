@@ -1,6 +1,6 @@
 app-id: io.wavebox.Wavebox
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: wavebox
 separate-locales: false
@@ -44,8 +44,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/OpenPrinting/cups.git
-        tag: v2.4.0
-        commit: 7b114a26fe8bbe3c280d3ac743d30e5cb8f6ef93
+        tag: v2.4.16
+        commit: a08944be4ba6e9861d8ef62494c2e481274b727c
   - name: gtk-cups-backend
     buildsystem: meson
     make-args: [modules/printbackends/libprintbackend-cups.so]
@@ -55,7 +55,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/GNOME/gtk.git
-        tag: 3.24.23
+        tag: 3.24.51
+        commit: 0d3e55cf22abc81b532a3011462b3195f1480974
       - type: patch
         path: gtk3-werror.patch
   - name: gtk-settings
@@ -98,8 +99,8 @@ modules:
     subdir: src
     sources:
       - type: archive
-        url: https://kerberos.org/dist/krb5/1.19/krb5-1.19.1.tar.gz
-        sha256: fa16f87eb7e3ec3586143c800d7eaff98b5e0dcdf0772af7d98612e49dbeb20b
+        url: https://kerberos.org/dist/krb5/1.21/krb5-1.21.3.tar.gz
+        sha256: b7a4cd5ead67fb08b980b21abd150ff7217e85ea320c9ed0c6dadd304840ad35
       - type: file
         path: krb5.conf
     post-install:
