@@ -57,7 +57,7 @@ modules:
       - type: git
         url: https://gitlab.gnome.org/GNOME/gtk.git
         tag: 3.24.51
-        commit: 0d3e55cf22abc81b532a3011462b3195f1480974
+        commit: a9f80271f9b9bb5f53649e9484221ccca0d86fea
       - type: patch
         path: gtk3-werror.patch
   - name: gtk-settings
