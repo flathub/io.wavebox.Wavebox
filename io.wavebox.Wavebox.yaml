@@ -80,8 +80,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/refi64/flextop
-        tag: v2022.03
-        commit: 83c73e435630b94a6f44abe67cb268eae5b229b4
+        tag: v2026.11
+        commit: 4b7fca2fecdd6794eaa19dfd157fc0bab821a58c
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
@@ -90,8 +90,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/refi64/cobalt
-        tag: v2024.10
-        commit: b56afa0d44121975d69b8aa1b366e381be6839a0
+        tag: v2026.11
+        commit: 07d1b3882b12160c7da8335896a856a126bbe0b8
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
